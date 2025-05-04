@@ -18,9 +18,15 @@ namespace infrastructure.Repo
             _context = c;
         }
 
-        public IgenericRepo<T> Entity()
+        
+
+        public IgenericRepo<T> Entity
         {
-            return entity ?? (new GenericRepo<T>(_context));
+            get 
+            {
+                
+                return entity ?? (new GenericRepo<T>(_context)); 
+            }
         }
 
 

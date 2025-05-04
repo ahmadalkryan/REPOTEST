@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core. interfaces
-{
+  namespace Core. interfaces
+  {
     public interface IUnitOfWork<T> where T : class
-{
+    {
         IgenericRepo<T> Entity { get; }
 
         void Save();
 
-}
-}
+    }
+  }
