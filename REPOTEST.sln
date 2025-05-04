@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REPOTEST", "REPOTEST\REPOTEST.csproj", "{12B8C296-656F-47E6-B20B-4EB2D3D6A027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infrastructure", "infrastructure\infrastructure.csproj", "{BDFE87AF-992D-46FD-B31A-C08C844DF942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{95E7A343-BB4F-41B2-B68D-7C0DB3EE0418}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B8C296-656F-47E6-B20B-4EB2D3D6A027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B8C296-656F-47E6-B20B-4EB2D3D6A027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B8C296-656F-47E6-B20B-4EB2D3D6A027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B8C296-656F-47E6-B20B-4EB2D3D6A027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFE87AF-992D-46FD-B31A-C08C844DF942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFE87AF-992D-46FD-B31A-C08C844DF942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFE87AF-992D-46FD-B31A-C08C844DF942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFE87AF-992D-46FD-B31A-C08C844DF942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E7A343-BB4F-41B2-B68D-7C0DB3EE0418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E7A343-BB4F-41B2-B68D-7C0DB3EE0418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E7A343-BB4F-41B2-B68D-7C0DB3EE0418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E7A343-BB4F-41B2-B68D-7C0DB3EE0418}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {436BA044-43D4-445C-B2B3-DDC1467A38B0}
+	EndGlobalSection
+EndGlobal
